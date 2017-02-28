@@ -1,0 +1,19 @@
+<h1>Mail App</h1>
+
+<div class="app">
+  <div class="folder">
+    <ul class="menu">
+      <li routerLinkActive="active" routerLink="/inbox">Inbox</li>
+      <li routerLinkActive="active" routerLink="/drafts">Drafts</li>
+    </ul>
+  </div>
+
+  <content>
+    <router-outlet></router-outlet>
+  </content>
+
+  <div>
+    Popup:
+    <router-outlet name="popup"></router-outlet>
+  </div>
+</div>

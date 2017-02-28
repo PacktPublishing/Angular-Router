@@ -1,0 +1,32 @@
+ul.menu {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+  cursor: pointer;
+}
+
+li {
+  padding: 10px 5px;
+}
+
+li:hover {
+  background-color: aliceblue;
+}
+
+li.active {
+  background-color: #dbe9f5;
+}
+
+div.app {
+  display: flex;
+}
+
+div.folder {
+  width: 150px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+content {
+  padding: 5px;
+  flex-grow: 1;
+}
